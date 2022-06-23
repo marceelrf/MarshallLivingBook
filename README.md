@@ -1,13 +1,5 @@
 Welcome! 
 
-This is a minimal example of a book based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown). 
-
-This template provides a skeleton file structure that you can edit to create your book. 
-
-The contents inside the .Rmd files provide some pointers to help you get started, but feel free to also delete the content in each file and start fresh.
-
-Additional resources:
-
-The **bookdown** book: https://bookdown.org/yihui/bookdown/
-
-The **bookdown** package reference site: https://pkgs.rstudio.com/bookdown
+**The living book of Marshall** was born from the idea of producing content based on the concept of open science. It is important to be clear that this book is not peer-reviewed. At least not in the traditional way. The content of this book includes a series of notes on topics of interest to me. Topics that I have been working on in my day-to-day life as a researcher in the areas of biomaterials, bioinformatics, data science, and bone regeneration biology.\
+As you read this book you will probably come across some incomplete section. Don't worry, this is part of the idea of a living book. This book will never have a final version. I will try to add sections as I go deeper and believe it is important to share them with the community.\
+If you find any wrong information feel free to contact me through my [github profile](https://github.com/marceelrf#-ask-me-anything)
