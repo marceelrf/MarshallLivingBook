@@ -4,15 +4,15 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Chapter 3 R basics | The living book of Marshall</title>
+<title>Chapter 2 R basics | The living book of Marshall</title>
 <meta name="author" content="Marcel Ferreira - Marshall">
 <meta name="description" content="The R language was developed for data analysis with a solid statistical background. R is a multi-paradigm object-oriented, functional programming, dynamic, weakly typed, programming language...">
 <meta name="generator" content="bookdown 0.27 with bs4_book()">
-<meta property="og:title" content="Chapter 3 R basics | The living book of Marshall">
+<meta property="og:title" content="Chapter 2 R basics | The living book of Marshall">
 <meta property="og:type" content="book">
 <meta property="og:description" content="The R language was developed for data analysis with a solid statistical background. R is a multi-paradigm object-oriented, functional programming, dynamic, weakly typed, programming language...">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Chapter 3 R basics | The living book of Marshall">
+<meta name="twitter:title" content="Chapter 2 R basics | The living book of Marshall">
 <meta name="twitter:description" content="The R language was developed for data analysis with a solid statistical background. R is a multi-paradigm object-oriented, functional programming, dynamic, weakly typed, programming language...">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
@@ -64,37 +64,54 @@
 </form>
 
       <nav aria-label="Table of contents"><h2>Table of contents</h2>
-        <ul class="book-toc list-unstyled"><li><a class="" href="index.html"><span class="header-section-number">Chapter 3</span> R basics</a></li></ul>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">About</a></li>
+<li><a class="" href="hello-bookdown.html"><span class="header-section-number">1</span> Hello bookdown</a></li>
+<li class="book-part">R programming</li>
+<li><a class="active" href="rprog.html"><span class="header-section-number">2</span> R basics</a></li>
+<li><a class="" href="parts.html"><span class="header-section-number">3</span> Parts</a></li>
+<li><a class="" href="footnotes-and-citations.html"><span class="header-section-number">4</span> Footnotes and citations</a></li>
+<li><a class="" href="blocks.html"><span class="header-section-number">5</span> Blocks</a></li>
+<li><a class="" href="sharing-your-book.html"><span class="header-section-number">6</span> Sharing your book</a></li>
+<li class="book-part">Bone biology</li>
+<li><a class="" href="proline-metabolism.html"><span class="header-section-number">7</span> Proline Metabolism</a></li>
+<li><a class="" href="references.html">References</a></li>
+<li><a class="" href="cross.html"><span class="header-section-number">8</span> Cross-references</a></li>
+</ul>
 
         <div class="book-extra">
           <p><a id="book-repo" href="https://github.com/rstudio/bookdown-demo">View book source <i class="fab fa-github"></i></a></p>
         </div>
       </nav>
 </div>
-  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="rprog" class="section level1" number="3">
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="rprog" class="section level1" number="2">
 <h1>
-<span class="header-section-number">3</span> R basics<a class="anchor" aria-label="anchor" href="#rprog"><i class="fas fa-link"></i></a>
+<span class="header-section-number">2</span> R basics<a class="anchor" aria-label="anchor" href="#rprog"><i class="fas fa-link"></i></a>
 </h1>
 <p>The R language was developed for data analysis with a solid statistical background. R is a multi-paradigm object-oriented, functional programming, dynamic, weakly typed, programming language focused on data manipulation, analysis, and visualization. It was originally created by Ross Ihaka and Robert Gentleman in the Statistics department at the University of Auckland, New Zealand. The Base R packages are developed and maintained by the R Development Core Team (R Core), through their controlled Software Development Life Cycle (SDLC). All source code is available for review under the Free Software Foundation’s GNU Public License (GPL). You can download in the Comprehensive R Archive Network (<a href="https://cran.r-project.org/">CRAN</a>) website.</p>
 <p>There are several development interfaces for programming with R, but among all of them I strongly recommend using <a href="https://www.rstudio.com/">RStudio</a>. You can work with in Windows, Mac, and Linux, or through a web browser using the RStudio server, if you want.</p>
 <div class="inline-figure"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/RStudio_IDE_screenshot.png/450px-RStudio_IDE_screenshot.png" title="RStudio" alt="RStudio"></div>
-<div id="r-object-classes" class="section level2" number="3.1">
+<div id="r-object-classes" class="section level2" number="2.1">
 <h2>
-<span class="header-section-number">3.1</span> R object classes<a class="anchor" aria-label="anchor" href="#r-object-classes"><i class="fas fa-link"></i></a>
+<span class="header-section-number">2.1</span> R object classes<a class="anchor" aria-label="anchor" href="#r-object-classes"><i class="fas fa-link"></i></a>
 </h2>
 
 </div>
 </div>
   <div class="chapter-nav">
-<div class="empty"></div>
-<div class="empty"></div>
+<div class="prev"><a href="hello-bookdown.html"><span class="header-section-number">1</span> Hello bookdown</a></div>
+<div class="next"><a href="parts.html"><span class="header-section-number">3</span> Parts</a></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
-      <div id="book-on-this-page"></div>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#rprog"><span class="header-section-number">2</span> R basics</a></li>
+<li><a class="nav-link" href="#r-object-classes"><span class="header-section-number">2.1</span> R object classes</a></li>
+</ul>
 
       <div class="book-extra">
         <ul class="list-unstyled">
-          
+<li><a id="book-source" href="https://github.com/rstudio/bookdown-demo/blob/master/02-Rbasics.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/rstudio/bookdown-demo/edit/master/02-Rbasics.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
         </ul>
 </div>
     </nav>
@@ -114,6 +131,34 @@
   </div>
 
 </div></div>
-</footer>
+</footer><!-- dynamically load mathjax for compatibility with self-contained --><script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
 </body>
 </html>
