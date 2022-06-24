@@ -29,13 +29,4 @@ I'm a brazilian medical physicist with master in Biotechnology and currently a P
 For my scientific publication records please check my [google schoolar profile](https://scholar.google.com.br/citations?user=lS42GYwAAAAJ&hl=pt-BR)
 
 
-```r
-bookdown::render_book()
-```
-
-
-```r
-bookdown::serve_book()
-```
-
 
