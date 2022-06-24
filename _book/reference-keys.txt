@@ -1,14 +1,11 @@
-fig:nice-fig
-tab:nice-tab
 eq:binom
 thm:tri
-about
+fig:nice-fig
+tab:nice-tab
 about-me
 hello-bookdown
 a-section
-cross
-chapters-and-sub-chapters
-captioned-figures-and-tables
+rprog
 parts
 footnotes-and-citations
 footnotes
@@ -25,3 +22,6 @@ proline-metabolism
 general-metabolism
 how-is-proline-uptake-regulated-during-osteoblast-differentiation
 what-are-the-proline-transporters-and-how-are-they-regulated
+cross
+chapters-and-sub-chapters
+captioned-figures-and-tables

@@ -15,7 +15,7 @@ biblio-style: apalike
 csl: chicago-fullnote-bibliography.csl
 ---
 
-# About
+# About {.unnumbered}
 
 **The living book of Marshall** was born from the idea of producing content based on the concept of open science. It is important to be clear that this book is not peer-reviewed. At least not in the traditional way. The content of this book includes a series of notes on topics of interest to me. Topics that I have been working on in my day-to-day life as a researcher in the areas of biomaterials, bioinformatics, data science, and bone regeneration biology.\
 As you read this book you will probably come across some incomplete section. Don't worry, this is part of the idea of a living book. This book will never have a final version. I will try to add sections as I go deeper and believe it is important to share them with the community.\
@@ -47,66 +47,12 @@ Chapters and sections are numbered by default. To un-number a heading, add a `{.
 
 <!--chapter:end:01-intro.Rmd-->
 
-# Cross-references {#cross}
+# (PART\*) R programming {-}
+# R basics {#rprog}
 
-Cross-references make it easier for your readers to find and link to elements in your book.
+The R language was developed for data analysis with a solid statistical background.
 
-## Chapters and sub-chapters
-
-There are two steps to cross-reference any heading:
-
-1. Label the heading: `# Hello world {#nice-label}`. 
-    - Leave the label off if you like the automated heading generated based on your heading title: for example, `# Hello world` = `# Hello world {#hello-world}`.
-    - To label an un-numbered heading, use: `# Hello world {-#nice-label}` or `{# Hello world .unnumbered}`.
-
-1. Next, reference the labeled heading anywhere in the text using `\@ref(nice-label)`; for example, please see Chapter \@ref(cross). 
-    - If you prefer text as the link instead of a numbered reference use: [any text you want can go here](#cross).
-
-## Captioned figures and tables
-
-Figures and tables *with captions* can also be cross-referenced from elsewhere in your book using `\@ref(fig:chunk-label)` and `\@ref(tab:chunk-label)`, respectively.
-
-See Figure \@ref(fig:nice-fig).
-
-
-```r
-par(mar = c(4, 4, .1, .1))
-plot(pressure, type = 'b', pch = 19)
-```
-
-<div class="figure" style="text-align: center">
-<img src="02-cross-refs_files/figure-html/nice-fig-1.png" alt="Plot with connected points showing that vapor pressure of mercury increases exponentially as temperature increases." width="80%" />
-<p class="caption">(\#fig:nice-fig)Here is a nice figure!</p>
-</div>
-
-Don't miss Table \@ref(tab:nice-tab).
-
-
-```r
-knitr::kable(
-  head(pressure, 10), caption = 'Here is a nice table!',
-  booktabs = TRUE
-)
-```
-
-
-
-Table: (\#tab:nice-tab)Here is a nice table!
-
-| temperature| pressure|
-|-----------:|--------:|
-|           0|   0.0002|
-|          20|   0.0012|
-|          40|   0.0060|
-|          60|   0.0300|
-|          80|   0.0900|
-|         100|   0.2700|
-|         120|   0.7500|
-|         140|   1.8500|
-|         160|   4.2000|
-|         180|   8.8000|
-
-<!--chapter:end:02-cross-refs.Rmd-->
+<!--chapter:end:02-Rbasics.Rmd-->
 
 # Parts
 
@@ -233,6 +179,7 @@ Or use:
 
 <!--chapter:end:06-share.Rmd-->
 
+# (PART\*) Bone biology {-}
 # Proline Metabolism
 
 This chapter is inspired in the Dr Karner's Lab (<https://www.utsouthwestern.edu/labs/karner/research/proline.html>)
@@ -256,4 +203,65 @@ Slc38a2 (Sodium-coupled neutral amino acid transporter 2)
 
 
 <!--chapter:end:08-references.Rmd-->
+
+# Cross-references {#cross}
+
+Cross-references make it easier for your readers to find and link to elements in your book.
+
+## Chapters and sub-chapters
+
+There are two steps to cross-reference any heading:
+
+1. Label the heading: `# Hello world {#nice-label}`. 
+    - Leave the label off if you like the automated heading generated based on your heading title: for example, `# Hello world` = `# Hello world {#hello-world}`.
+    - To label an un-numbered heading, use: `# Hello world {-#nice-label}` or `{# Hello world .unnumbered}`.
+
+1. Next, reference the labeled heading anywhere in the text using `\@ref(nice-label)`; for example, please see Chapter \@ref(cross). 
+    - If you prefer text as the link instead of a numbered reference use: [any text you want can go here](#cross).
+
+## Captioned figures and tables
+
+Figures and tables *with captions* can also be cross-referenced from elsewhere in your book using `\@ref(fig:chunk-label)` and `\@ref(tab:chunk-label)`, respectively.
+
+See Figure \@ref(fig:nice-fig).
+
+
+```r
+par(mar = c(4, 4, .1, .1))
+plot(pressure, type = 'b', pch = 19)
+```
+
+<div class="figure" style="text-align: center">
+<img src="cross-refs_files/figure-html/nice-fig-1.png" alt="Plot with connected points showing that vapor pressure of mercury increases exponentially as temperature increases." width="80%" />
+<p class="caption">(\#fig:nice-fig)Here is a nice figure!</p>
+</div>
+
+Don't miss Table \@ref(tab:nice-tab).
+
+
+```r
+knitr::kable(
+  head(pressure, 10), caption = 'Here is a nice table!',
+  booktabs = TRUE
+)
+```
+
+
+
+Table: (\#tab:nice-tab)Here is a nice table!
+
+| temperature| pressure|
+|-----------:|--------:|
+|           0|   0.0002|
+|          20|   0.0012|
+|          40|   0.0060|
+|          60|   0.0300|
+|          80|   0.0900|
+|         100|   0.2700|
+|         120|   0.7500|
+|         140|   1.8500|
+|         160|   4.2000|
+|         180|   8.8000|
+
+<!--chapter:end:cross-refs.Rmd-->
 
