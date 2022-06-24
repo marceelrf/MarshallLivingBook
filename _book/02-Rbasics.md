@@ -6,6 +6,6 @@ The R language was developed for data analysis with a solid statistical backgrou
 
 There are several development interfaces for programming with R, but among all of them I strongly recommend using [RStudio](https://www.rstudio.com/). You can work with in Windows, Mac, and Linux, or through a web browser using the RStudio server, if you want.
 
-[!RSTUDIO(https://en.wikipedia.org/wiki/RStudio#/media/File:RStudio_IDE_screenshot.png)](https://en.wikipedia.org/wiki/RStudio#/media/File:RStudio_IDE_screenshot.png)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/RStudio_IDE_screenshot.png/450px-RStudio_IDE_screenshot.png" title="RStudio" alt="RStudio"/>
 
-## R object classes  
+## R object classes
