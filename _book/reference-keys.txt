@@ -6,6 +6,7 @@ about-me
 hello-bookdown
 a-section
 rprog
+r-object-classes
 parts
 footnotes-and-citations
 footnotes
