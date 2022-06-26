@@ -2,7 +2,6 @@ eq:binom
 thm:tri
 fig:nice-fig
 tab:nice-tab
-about-me
 hello-bookdown
 a-section
 rprog
@@ -23,6 +22,7 @@ proline-metabolism
 general-metabolism
 how-is-proline-uptake-regulated-during-osteoblast-differentiation
 what-are-the-proline-transporters-and-how-are-they-regulated
+cell-culture
 cross
 chapters-and-sub-chapters
 captioned-figures-and-tables

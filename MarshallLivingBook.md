@@ -1,7 +1,7 @@
 ---
 title: "The living book of Marshall"
 author: "Marcel Ferreira - Marshall"
-date: "2022-06-24"
+date: "2022-06-26"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -21,7 +21,7 @@ csl: chicago-fullnote-bibliography.csl
 As you read this book you will probably come across some incomplete section. Don't worry, this is part of the idea of a living book. This book will never have a final version. I will try to add sections as I go deeper and believe it is important to share them with the community.\
 If you find any wrong information feel free to contact me through my [github profile](https://github.com/marceelrf#-ask-me-anything).
 
-## About me
+## About me {-}
 
 ![It's mee!](images/marshall.jpg)
 
@@ -205,11 +205,11 @@ Slc38a2 (Sodium-coupled neutral amino acid transporter 2)
 
 <!--chapter:end:07-Proline-Metabolism.Rmd-->
 
+# (PART\*) Protocols {-}
 
-# References {-}
+# Cell culture
 
-
-<!--chapter:end:08-references.Rmd-->
+<!--chapter:end:08-protocols_cellculture.Rmd-->
 
 # Cross-references {#cross}
 
@@ -271,4 +271,10 @@ Table: (\#tab:nice-tab)Here is a nice table!
 |         180|   8.8000|
 
 <!--chapter:end:cross-refs.Rmd-->
+
+
+# References {-}
+
+
+<!--chapter:end:references.Rmd-->
 
