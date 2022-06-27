@@ -75,7 +75,7 @@ Table: (\#tab:lowerGel)Lower Gel
 -  Place the Lower solution in the gel preparation compartment (between the vials) until approximately the green line on the glass.  
 -  Add 1 mL of butanol solution or distilled water until the end of the glass (avoiding the contact with the $O_2$ and helping the polymerization). After the addition, wait for the gel to polymerize.  
 -  Discard the water or butanol. Next, place the APS and TEMED in the Upper, homogenize the solution, and apply it above the Lower.  
--  Once added to the Upper, place the comb (10 or 15 teeth) to form the wells.  
+-  Once added to the Upper, place the comb (10 or 15 wells) to form the wells.  
 -  Wait for polymerization (~ 20 min) and remove the comb.  
 
 ## Step 3 - Electrophoresis run  
