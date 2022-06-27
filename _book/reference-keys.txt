@@ -33,6 +33,8 @@ procedures
 step-2---gel-preparation
 procedures-1
 step-3---electrophoresis-run
+procedures-2
+step-4---transfer-of-the-gel-proteins-to-the-membrane
 cross
 chapters-and-sub-chapters
 captioned-figures-and-tables

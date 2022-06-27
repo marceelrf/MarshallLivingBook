@@ -80,3 +80,28 @@ Table: (\#tab:lowerGel)Lower Gel
 
 ## Step 3 - Electrophoresis run  
 
+From the conditions exposed in the previous steps, the gel is subjected to an electric field and the proteins, now negatively charged due to the action of SDS, migrate to the positive pole of the electrode. This technique will estimate the molecular weight of the proteins, since differentiated migration of molecules with different sizes will occur.
+
+### Procedures  
+
+- 	Place the cassette with the polymerized gel in the vat.  
+- 	Pipette 5 μL of the molecular weight marker into the first well of the gel, and pipette 5 - 35 μL of your samples (depending on the amount obtained in the protein assay).  
+- 	Fill the electrophoretic tank with the Running Buffer.  
+- 	Turn on the device and run at 50V - 80V for each gel, until the sample runs through the entire gel, for approximately 1 hour (note the location of the bands).  
+- 	Turn off the instrument.  
+
+## Step 4 - Transfer of the gel proteins to the membrane
+
+SDS-PAGE, although an analytically technique, does not allow the analysis of individual and separate proteins. For this to be possible, it is necessary to use antibodies specific for the desired protein. However, these proteins need to be on a solid support. At LaBio we generally use PVDF membrane. This transfer of the proteins from the gel to the membrane is done by electrophoretic transfer.
+
+- 	Cut the PVDS membrane to the gel dimensions and wet it well with methanol.  
+- 	Disassemble the electrophoresis tank and uncouple the glass plates to remove the gel. Do this inside the transfer buffer using a spatula (use a white tray).  
+- 	After removing the gel, assemble the "sandwich" as shown in the diagram below, following the direction of the arrow.  
+- 	Fill a vat with Transfer Buffer and place the platform surface of the transfer device, leaving it immersed. The black part of the platform down/transparent part up.
+**IMAGE**
+- 	Close the "sandwich" and place it in the transfer vat (the black part of the holder facing the black part of the vat).  
+- 	Place an icex on the transfer tray to prevent the system from overheating or place the tray in a bowl of ice in the refrigerator.  
+- 	Switch the device on and apply a 400 mA current for 45 minutes.  
+- 	Switch off the device.  
+
+
