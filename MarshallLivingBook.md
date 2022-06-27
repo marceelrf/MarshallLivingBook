@@ -216,6 +216,8 @@ Slc38a2 (Sodium-coupled neutral amino acid transporter 2)
 
 # Western Blotting
 
+This chapter is based on the protocol used in the [Bioassays and Cell Dynamic lab](https://www.instagram.com/bioassaysandcelldynamic/) directed by Dr Willian Zambuzzi.
+
 Western Blotting is a technique in molecular biology/biochemistry for detecting proteins in a homogenate (lysed cells) or in an extract of a biological tissue. This technique uses gel electrophoresis to separate denatured proteins by mass (polypeptide length). Proteins are separated from the gel onto PVDF (polyvinylidene fluoride) membrane, where antibodies specific to the protein to be studied are used as probes.
 
 ## Step 1 - Sample preparation
