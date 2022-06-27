@@ -1,7 +1,7 @@
 ---
 title: "The living book of Marshall"
 author: "Marcel Ferreira - Marshall"
-date: "2022-06-26"
+date: "2022-06-27"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]

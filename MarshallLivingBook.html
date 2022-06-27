@@ -263,13 +263,201 @@ and <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</
 </div>
 <div id="cell-culture" class="section level1" number="8">
 <h1><span class="header-section-number">8</span> Cell culture</h1>
+<div id="basis" class="section level2" number="8.1">
+<h2><span class="header-section-number">8.1</span> Basis</h2>
 <!--chapter:end:08-protocols_cellculture.Rmd-->
 </div>
-<div id="cross" class="section level1" number="9">
-<h1><span class="header-section-number">9</span> Cross-references</h1>
+</div>
+<div id="western-blotting" class="section level1" number="9">
+<h1><span class="header-section-number">9</span> Western Blotting</h1>
+<p>Western Blotting is a technique in molecular biology/biochemistry for detecting proteins in a homogenate (lysed cells) or in an extract of a biological tissue. This technique uses gel electrophoresis to separate denatured proteins by mass (polypeptide length). Proteins are separated from the gel onto PVDF (polyvinylidene fluoride) membrane, where antibodies specific to the protein to be studied are used as probes.</p>
+<div id="step-1---sample-preparation" class="section level2" number="9.1">
+<h2><span class="header-section-number">9.1</span> Step 1 - Sample preparation</h2>
+<p>Before performing the electrophoretic run the cells need to be lysed in order to release the proteins of interest. However, a protease inhibitor cocktail is used in the Lysis Buffer to prevent the proteins from being degraded/digested.</p>
+<p>The β-mercaptoethanol (reducing agent) used in the Sample Buffer binds to the disulfide (S-S) bonds of the cysteine residues, which promote the binding of proteins to other monomers, other proteins, or even to the tertiary structure of the same protein, thus keeping the proteins separated and in the primary conformation.</p>
+<div id="materials" class="section level3" number="9.1.1">
+<h3><span class="header-section-number">9.1.1</span> Materials</h3>
+<ul>
+<li>Sample (standardized - see separate protocol).</li>
+<li>Falcon tubes.</li>
+<li>Warm PBS.</li>
+<li>Lysis buffer and sample buffer.</li>
+<li>Ice.</li>
+<li>Centrifuge and vortex.</li>
+</ul>
+</div>
+<div id="procedures" class="section level3" number="9.1.2">
+<h3><span class="header-section-number">9.1.2</span> Procedures</h3>
+<ul>
+<li>Scrape the cells from the petri dish with scrap.</li>
+<li>Centrifuge in a falcon tube for 5 min at a speed of 3000 rpm.</li>
+<li>Discard the supernatant.</li>
+<li>Resuspend the pellet with warm PBS.</li>
+<li>Centrifuge in a falcon tube for 5 min at 3000 rpm.</li>
+<li>Discard the supernatant.</li>
+<li>Resuspend the pellet in 50-200μL lysis buffer (variable volume).</li>
+<li>Wait 2 hours on ice, shaking the solution on the vortex every 20 min.</li>
+<li>Centrifuge the eppendorfs in a refrigerated centrifuge for 15 min at a temperature of 4°C to 8°C at a speed of 14000 rpm.</li>
+<li>Collect the supernatant, measuring the exact volume (discard the pellet).</li>
+<li>Separate 10 μL for protein dosage (see protocol …)</li>
+<li>To the remainder add sample buffer (TA) in a 1:1 ratio (see protocol …)</li>
+<li>Heat at 95°C for 5 min and then freeze.</li>
+</ul>
+</div>
+</div>
+<div id="step-2---gel-preparation" class="section level2" number="9.2">
+<h2><span class="header-section-number">9.2</span> Step 2 - Gel preparation</h2>
+<p>The gel preparation will be an inert matrix through which the proteins can migrate. It is made by polymerizing acrylamide monomers, and the pore size of the gel can be adjusted by varying the concentration of acrylamide (LOWER gel) added, depending on the molecular weight of your protein of interest. SDS, which is negatively charged, binds in the hydrophobic regions of the proteins, masking their intrinsic charges and allowing them to migrate toward the positive pole of the electric field formed.</p>
+<table>
+<caption>(#tab:upperGel)Upper gel</caption>
+<thead>
+<tr class="header">
+<th align="left">Reagent</th>
+<th align="left">Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Tris 0.5M, pH 6.8</td>
+<td align="left">2.5 mL</td>
+</tr>
+<tr class="even">
+<td align="left">SDS 10%</td>
+<td align="left">100 µL</td>
+</tr>
+<tr class="odd">
+<td align="left">Acrylamide 40% Bis 1%</td>
+<td align="left">1 mL</td>
+</tr>
+<tr class="even">
+<td align="left">Water</td>
+<td align="left">6.40 mL</td>
+</tr>
+<tr class="odd">
+<td align="left">APS 10%</td>
+<td align="left">50 µL</td>
+</tr>
+<tr class="even">
+<td align="left">TEMED</td>
+<td align="left">10 – 20 µL</td>
+</tr>
+<tr class="odd">
+<td align="left">Total</td>
+<td align="left">10 mL</td>
+</tr>
+</tbody>
+</table>
+<p>The gel recipe below has been adjusted to volumes of 10mL for each concentration (@ref(tab:lowerGel)). If you want to work with 20mL, 30mL, or 40 mL, just multiply by 2, 3, or 4, respectively. The X% contains the recipe to make a lower gel in any desire concentration.</p>
+<table>
+<caption>(#tab:lowerGel)Lower Gel</caption>
+<colgroup>
+<col width="25%" />
+<col width="10%" />
+<col width="10%" />
+<col width="10%" />
+<col width="10%" />
+<col width="32%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Reagent</th>
+<th align="left">X6.</th>
+<th align="left">X8.</th>
+<th align="left">X10.</th>
+<th align="left">X12.</th>
+<th align="left">X.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Tris 1.5M, pH 8.8</td>
+<td align="left">2.5 mL</td>
+<td align="left">2.5 mL</td>
+<td align="left">2.5 mL</td>
+<td align="left">2.5 mL</td>
+<td align="left">2.5 mL</td>
+</tr>
+<tr class="even">
+<td align="left">SDS 10%</td>
+<td align="left">0.1 mL</td>
+<td align="left">0.1 mL</td>
+<td align="left">0.1 mL</td>
+<td align="left">0.1 mL</td>
+<td align="left">0.1 mL</td>
+</tr>
+<tr class="odd">
+<td align="left">Acrylamide 40% Bis 1%</td>
+<td align="left">1.5 mL</td>
+<td align="left">2 mL</td>
+<td align="left">2.5 mL</td>
+<td align="left">3.0 mL</td>
+<td align="left">0.25 mL * X%</td>
+</tr>
+<tr class="even">
+<td align="left">Water</td>
+<td align="left">5.85 mL</td>
+<td align="left">5.35 mL</td>
+<td align="left">4.85 mL</td>
+<td align="left">4.35 mL</td>
+<td align="left">7.35 mL - Acrylamide volume</td>
+</tr>
+<tr class="odd">
+<td align="left">APS 10%</td>
+<td align="left">0.05 mL</td>
+<td align="left">0.05 mL</td>
+<td align="left">0.05 mL</td>
+<td align="left">0.05 mL</td>
+<td align="left">0.05 mL</td>
+</tr>
+<tr class="even">
+<td align="left">TEMED</td>
+<td align="left">0.005 mL</td>
+<td align="left">0.005 mL</td>
+<td align="left">0.005 mL</td>
+<td align="left">0.005 mL</td>
+<td align="left">0.005 mL</td>
+</tr>
+<tr class="odd">
+<td align="left">Total</td>
+<td align="left">10 mL</td>
+<td align="left">10 mL</td>
+<td align="left">10 mL</td>
+<td align="left">10 mL</td>
+<td align="left">10 mL</td>
+</tr>
+</tbody>
+</table>
+<div id="procedures-1" class="section level3" number="9.2.1">
+<h3><span class="header-section-number">9.2.1</span> Procedures</h3>
+<ul>
+<li>Take two falcon tubes. One for each solution.<br />
+</li>
+<li>In one tube prepare the Upper, placing all components except the TEMED and APS (avoiding polymerization).<br />
+</li>
+<li>In one tube prepare the Lower, placing all the components!<br />
+</li>
+<li>Place the Lower solution in the gel preparation compartment (between the vials) until approximately the green line on the glass.<br />
+</li>
+<li>Add 1 mL of butanol solution or distilled water until the end of the glass (avoiding the contact with the <span class="math inline">\(O_2\)</span> and helping the polymerization). After the addition, wait for the gel to polymerize.<br />
+</li>
+<li>Discard the water or butanol. Next, place the APS and TEMED in the Upper, homogenize the solution, and apply it above the Lower.<br />
+</li>
+<li>Once added to the Upper, place the comb (10 or 15 teeth) to form the wells.<br />
+</li>
+<li>Wait for polymerization (~ 20 min) and remove the comb.</li>
+</ul>
+</div>
+</div>
+<div id="step-3---electrophoresis-run" class="section level2" number="9.3">
+<h2><span class="header-section-number">9.3</span> Step 3 - Electrophoresis run</h2>
+<!--chapter:end:09-westernbloting.Rmd-->
+</div>
+</div>
+<div id="cross" class="section level1" number="10">
+<h1><span class="header-section-number">10</span> Cross-references</h1>
 <p>Cross-references make it easier for your readers to find and link to elements in your book.</p>
-<div id="chapters-and-sub-chapters" class="section level2" number="9.1">
-<h2><span class="header-section-number">9.1</span> Chapters and sub-chapters</h2>
+<div id="chapters-and-sub-chapters" class="section level2" number="10.1">
+<h2><span class="header-section-number">10.1</span> Chapters and sub-chapters</h2>
 <p>There are two steps to cross-reference any heading:</p>
 <ol style="list-style-type: decimal">
 <li>Label the heading: <code># Hello world {#nice-label}</code>.
@@ -283,8 +471,8 @@ and <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</
 </ul></li>
 </ol>
 </div>
-<div id="captioned-figures-and-tables" class="section level2" number="9.2">
-<h2><span class="header-section-number">9.2</span> Captioned figures and tables</h2>
+<div id="captioned-figures-and-tables" class="section level2" number="10.2">
+<h2><span class="header-section-number">10.2</span> Captioned figures and tables</h2>
 <p>Figures and tables <em>with captions</em> can also be cross-referenced from elsewhere in your book using <code>\@ref(fig:chunk-label)</code> and <code>\@ref(tab:chunk-label)</code>, respectively.</p>
 <p>See Figure @ref(fig:nice-fig).</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">par</span>(<span class="at">mar =</span> <span class="fu">c</span>(<span class="dv">4</span>, <span class="dv">4</span>, .<span class="dv">1</span>, .<span class="dv">1</span>))</span>
@@ -398,7 +586,7 @@ Xie, Yihui. <em>Bookdown: Authoring Books and Technical Documents with r Markdow
   <div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>The living book of Marshall</strong>" was written by Marcel Ferreira - Marshall. It was last built on 2022-06-26.</p>
+    <p>"<strong>The living book of Marshall</strong>" was written by Marcel Ferreira - Marshall. It was last built on 2022-06-27.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">

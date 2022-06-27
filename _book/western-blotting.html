@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Chapter 9 Western Blotting | The living book of Marshall</title>
+<meta name="author" content="Marcel Ferreira - Marshall">
+<meta name="description" content="Western Blotting is a technique in molecular biology/biochemistry for detecting proteins in a homogenate (lysed cells) or in an extract of a biological tissue. This technique uses gel...">
+<meta name="generator" content="bookdown 0.27 with bs4_book()">
+<meta property="og:title" content="Chapter 9 Western Blotting | The living book of Marshall">
+<meta property="og:type" content="book">
+<meta property="og:description" content="Western Blotting is a technique in molecular biology/biochemistry for detecting proteins in a homogenate (lysed cells) or in an extract of a biological tissue. This technique uses gel...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Chapter 9 Western Blotting | The living book of Marshall">
+<meta name="twitter:description" content="Western Blotting is a technique in molecular biology/biochemistry for detecting proteins in a homogenate (lysed cells) or in an extract of a biological tissue. This technique uses gel...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.3.1/transition.js"></script><script src="libs/bs3compat-0.3.1/tabs.js"></script><script src="libs/bs3compat-0.3.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<style type="text/css">
+    /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+        }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }
+  </style>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">The living book of Marshall</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">About</a></li>
+<li><a class="" href="hello-bookdown.html"><span class="header-section-number">1</span> Hello bookdown</a></li>
+<li class="book-part">R programming</li>
+<li><a class="" href="rprog.html"><span class="header-section-number">2</span> R basics</a></li>
+<li><a class="" href="parts.html"><span class="header-section-number">3</span> Parts</a></li>
+<li><a class="" href="footnotes-and-citations.html"><span class="header-section-number">4</span> Footnotes and citations</a></li>
+<li><a class="" href="blocks.html"><span class="header-section-number">5</span> Blocks</a></li>
+<li><a class="" href="sharing-your-book.html"><span class="header-section-number">6</span> Sharing your book</a></li>
+<li class="book-part">Bone biology</li>
+<li><a class="" href="proline-metabolism.html"><span class="header-section-number">7</span> Proline Metabolism</a></li>
+<li class="book-part">Protocols</li>
+<li><a class="" href="cell-culture.html"><span class="header-section-number">8</span> Cell culture</a></li>
+<li><a class="active" href="western-blotting.html"><span class="header-section-number">9</span> Western Blotting</a></li>
+<li><a class="" href="cross.html"><span class="header-section-number">10</span> Cross-references</a></li>
+<li><a class="" href="references.html">References</a></li>
+</ul>
+
+        <div class="book-extra">
+          <p><a id="book-repo" href="https://github.com/rstudio/bookdown-demo">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="western-blotting" class="section level1" number="9">
+<h1>
+<span class="header-section-number">9</span> Western Blotting<a class="anchor" aria-label="anchor" href="#western-blotting"><i class="fas fa-link"></i></a>
+</h1>
+<p>Western Blotting is a technique in molecular biology/biochemistry for detecting proteins in a homogenate (lysed cells) or in an extract of a biological tissue. This technique uses gel electrophoresis to separate denatured proteins by mass (polypeptide length). Proteins are separated from the gel onto PVDF (polyvinylidene fluoride) membrane, where antibodies specific to the protein to be studied are used as probes.</p>
+<div id="step-1---sample-preparation" class="section level2" number="9.1">
+<h2>
+<span class="header-section-number">9.1</span> Step 1 - Sample preparation<a class="anchor" aria-label="anchor" href="#step-1---sample-preparation"><i class="fas fa-link"></i></a>
+</h2>
+<p>Before performing the electrophoretic run the cells need to be lysed in order to release the proteins of interest. However, a protease inhibitor cocktail is used in the Lysis Buffer to prevent the proteins from being degraded/digested.</p>
+<p>The β-mercaptoethanol (reducing agent) used in the Sample Buffer binds to the disulfide (S-S) bonds of the cysteine residues, which promote the binding of proteins to other monomers, other proteins, or even to the tertiary structure of the same protein, thus keeping the proteins separated and in the primary conformation.</p>
+<div id="materials" class="section level3" number="9.1.1">
+<h3>
+<span class="header-section-number">9.1.1</span> Materials<a class="anchor" aria-label="anchor" href="#materials"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>Sample (standardized - see separate protocol).</li>
+<li>Falcon tubes.</li>
+<li>Warm PBS.</li>
+<li>Lysis buffer and sample buffer.</li>
+<li>Ice.</li>
+<li>Centrifuge and vortex.</li>
+</ul>
+</div>
+<div id="procedures" class="section level3" number="9.1.2">
+<h3>
+<span class="header-section-number">9.1.2</span> Procedures<a class="anchor" aria-label="anchor" href="#procedures"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>Scrape the cells from the petri dish with scrap.</li>
+<li>Centrifuge in a falcon tube for 5 min at a speed of 3000 rpm.</li>
+<li>Discard the supernatant.</li>
+<li>Resuspend the pellet with warm PBS.</li>
+<li>Centrifuge in a falcon tube for 5 min at 3000 rpm.</li>
+<li>Discard the supernatant.</li>
+<li>Resuspend the pellet in 50-200μL lysis buffer (variable volume).</li>
+<li>Wait 2 hours on ice, shaking the solution on the vortex every 20 min.</li>
+<li>Centrifuge the eppendorfs in a refrigerated centrifuge for 15 min at a temperature of 4°C to 8°C at a speed of 14000 rpm.</li>
+<li>Collect the supernatant, measuring the exact volume (discard the pellet).</li>
+<li>Separate 10 μL for protein dosage (see protocol …)</li>
+<li>To the remainder add sample buffer (TA) in a 1:1 ratio (see protocol …)</li>
+<li>Heat at 95°C for 5 min and then freeze.</li>
+</ul>
+</div>
+</div>
+<div id="step-2---gel-preparation" class="section level2" number="9.2">
+<h2>
+<span class="header-section-number">9.2</span> Step 2 - Gel preparation<a class="anchor" aria-label="anchor" href="#step-2---gel-preparation"><i class="fas fa-link"></i></a>
+</h2>
+<p>The gel preparation will be an inert matrix through which the proteins can migrate. It is made by polymerizing acrylamide monomers, and the pore size of the gel can be adjusted by varying the concentration of acrylamide (LOWER gel) added, depending on the molecular weight of your protein of interest. SDS, which is negatively charged, binds in the hydrophobic regions of the proteins, masking their intrinsic charges and allowing them to migrate toward the positive pole of the electric field formed.</p>
+<div class="inline-table"><table class="table table-sm">
+<caption>
+<span id="tab:upperGel">Table 9.1: </span>Upper gel</caption>
+<thead><tr class="header">
+<th align="left">Reagent</th>
+<th align="left">Volume</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td align="left">Tris 0.5M, pH 6.8</td>
+<td align="left">2.5 mL</td>
+</tr>
+<tr class="even">
+<td align="left">SDS 10%</td>
+<td align="left">100 µL</td>
+</tr>
+<tr class="odd">
+<td align="left">Acrylamide 40% Bis 1%</td>
+<td align="left">1 mL</td>
+</tr>
+<tr class="even">
+<td align="left">Water</td>
+<td align="left">6.40 mL</td>
+</tr>
+<tr class="odd">
+<td align="left">APS 10%</td>
+<td align="left">50 µL</td>
+</tr>
+<tr class="even">
+<td align="left">TEMED</td>
+<td align="left">10 – 20 µL</td>
+</tr>
+<tr class="odd">
+<td align="left">Total</td>
+<td align="left">10 mL</td>
+</tr>
+</tbody>
+</table></div>
+<p>The gel recipe below has been adjusted to volumes of 10mL for each concentration (<a href="western-blotting.html#tab:lowerGel">9.2</a>). If you want to work with 20mL, 30mL, or 40 mL, just multiply by 2, 3, or 4, respectively. The X% contains the recipe to make a lower gel in any desire concentration.</p>
+<div class="inline-table"><table class="table table-sm">
+<caption>
+<span id="tab:lowerGel">Table 9.2: </span>Lower Gel</caption>
+<colgroup>
+<col width="25%">
+<col width="10%">
+<col width="10%">
+<col width="10%">
+<col width="10%">
+<col width="32%">
+</colgroup>
+<thead><tr class="header">
+<th align="left">Reagent</th>
+<th align="left">X6.</th>
+<th align="left">X8.</th>
+<th align="left">X10.</th>
+<th align="left">X12.</th>
+<th align="left">X.</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td align="left">Tris 1.5M, pH 8.8</td>
+<td align="left">2.5 mL</td>
+<td align="left">2.5 mL</td>
+<td align="left">2.5 mL</td>
+<td align="left">2.5 mL</td>
+<td align="left">2.5 mL</td>
+</tr>
+<tr class="even">
+<td align="left">SDS 10%</td>
+<td align="left">0.1 mL</td>
+<td align="left">0.1 mL</td>
+<td align="left">0.1 mL</td>
+<td align="left">0.1 mL</td>
+<td align="left">0.1 mL</td>
+</tr>
+<tr class="odd">
+<td align="left">Acrylamide 40% Bis 1%</td>
+<td align="left">1.5 mL</td>
+<td align="left">2 mL</td>
+<td align="left">2.5 mL</td>
+<td align="left">3.0 mL</td>
+<td align="left">0.25 mL * X%</td>
+</tr>
+<tr class="even">
+<td align="left">Water</td>
+<td align="left">5.85 mL</td>
+<td align="left">5.35 mL</td>
+<td align="left">4.85 mL</td>
+<td align="left">4.35 mL</td>
+<td align="left">7.35 mL - Acrylamide volume</td>
+</tr>
+<tr class="odd">
+<td align="left">APS 10%</td>
+<td align="left">0.05 mL</td>
+<td align="left">0.05 mL</td>
+<td align="left">0.05 mL</td>
+<td align="left">0.05 mL</td>
+<td align="left">0.05 mL</td>
+</tr>
+<tr class="even">
+<td align="left">TEMED</td>
+<td align="left">0.005 mL</td>
+<td align="left">0.005 mL</td>
+<td align="left">0.005 mL</td>
+<td align="left">0.005 mL</td>
+<td align="left">0.005 mL</td>
+</tr>
+<tr class="odd">
+<td align="left">Total</td>
+<td align="left">10 mL</td>
+<td align="left">10 mL</td>
+<td align="left">10 mL</td>
+<td align="left">10 mL</td>
+<td align="left">10 mL</td>
+</tr>
+</tbody>
+</table></div>
+<div id="procedures-1" class="section level3" number="9.2.1">
+<h3>
+<span class="header-section-number">9.2.1</span> Procedures<a class="anchor" aria-label="anchor" href="#procedures-1"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>Take two falcon tubes. One for each solution.<br>
+</li>
+<li>In one tube prepare the Upper, placing all components except the TEMED and APS (avoiding polymerization).<br>
+</li>
+<li>In one tube prepare the Lower, placing all the components!<br>
+</li>
+<li>Place the Lower solution in the gel preparation compartment (between the vials) until approximately the green line on the glass.<br>
+</li>
+<li>Add 1 mL of butanol solution or distilled water until the end of the glass (avoiding the contact with the <span class="math inline">\(O_2\)</span> and helping the polymerization). After the addition, wait for the gel to polymerize.<br>
+</li>
+<li>Discard the water or butanol. Next, place the APS and TEMED in the Upper, homogenize the solution, and apply it above the Lower.<br>
+</li>
+<li>Once added to the Upper, place the comb (10 or 15 teeth) to form the wells.<br>
+</li>
+<li>Wait for polymerization (~ 20 min) and remove the comb.</li>
+</ul>
+</div>
+</div>
+<div id="step-3---electrophoresis-run" class="section level2" number="9.3">
+<h2>
+<span class="header-section-number">9.3</span> Step 3 - Electrophoresis run<a class="anchor" aria-label="anchor" href="#step-3---electrophoresis-run"><i class="fas fa-link"></i></a>
+</h2>
+
+</div>
+</div>
+  <div class="chapter-nav">
+<div class="prev"><a href="cell-culture.html"><span class="header-section-number">8</span> Cell culture</a></div>
+<div class="next"><a href="cross.html"><span class="header-section-number">10</span> Cross-references</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#western-blotting"><span class="header-section-number">9</span> Western Blotting</a></li>
+<li>
+<a class="nav-link" href="#step-1---sample-preparation"><span class="header-section-number">9.1</span> Step 1 - Sample preparation</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#materials"><span class="header-section-number">9.1.1</span> Materials</a></li>
+<li><a class="nav-link" href="#procedures"><span class="header-section-number">9.1.2</span> Procedures</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#step-2---gel-preparation"><span class="header-section-number">9.2</span> Step 2 - Gel preparation</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#procedures-1"><span class="header-section-number">9.2.1</span> Procedures</a></li></ul>
+</li>
+<li><a class="nav-link" href="#step-3---electrophoresis-run"><span class="header-section-number">9.3</span> Step 3 - Electrophoresis run</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/rstudio/bookdown-demo/blob/master/09-westernbloting.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/rstudio/bookdown-demo/edit/master/09-westernbloting.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>The living book of Marshall</strong>" was written by Marcel Ferreira - Marshall. It was last built on 2022-06-27.</p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer><!-- dynamically load mathjax for compatibility with self-contained --><script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
+</body>
+</html>

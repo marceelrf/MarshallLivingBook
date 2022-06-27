@@ -30,8 +30,9 @@ For my scientific publication records please check my [google schoolar profile](
 
 
 ```{r include=FALSE}
+library(tidyverse)
 # automatically create a bib database for R packages
 knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+  .packages(), 'bookdown', 'knitr', 'rmarkdown','dplyr',"tidyr","purrr"
 ), 'packages.bib')
 ```

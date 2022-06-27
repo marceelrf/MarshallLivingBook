@@ -1,5 +1,7 @@
 eq:binom
 thm:tri
+tab:upperGel
+tab:lowerGel
 fig:nice-fig
 tab:nice-tab
 hello-bookdown
@@ -23,6 +25,14 @@ general-metabolism
 how-is-proline-uptake-regulated-during-osteoblast-differentiation
 what-are-the-proline-transporters-and-how-are-they-regulated
 cell-culture
+basis
+western-blotting
+step-1---sample-preparation
+materials
+procedures
+step-2---gel-preparation
+procedures-1
+step-3---electrophoresis-run
 cross
 chapters-and-sub-chapters
 captioned-figures-and-tables
