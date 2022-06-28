@@ -35,6 +35,14 @@ procedures-1
 step-3---electrophoresis-run
 procedures-2
 step-4---transfer-of-the-gel-proteins-to-the-membrane
+step-5---membrane-blocking
+procedures-3
+step-6---primary-antibody-incubation
+procedures-4
+step-7---secondary-antibody-incubation
+procedures-5
+step-8---membrane-read
+procedures-6
 cross
 chapters-and-sub-chapters
 captioned-figures-and-tables

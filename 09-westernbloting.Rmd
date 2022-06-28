@@ -158,4 +158,50 @@ SDS-PAGE, although an analytically technique, does not allow the analysis of ind
 - 	Switch the device on and apply a 400 mA current for 45 minutes.  
 - 	Switch off the device.  
 
+## Step 5 - Membrane blocking
+
+The membrane has a high affinity for proteins. Thus, it is necessary to block it to prevent antibodies from binding to the entire membrane surface, i.e. generating nonspecific binding.
+
+Either milk powder or BSA can be used with a blocking solution. However, when using phosphospecific antibodies^[Phospho-specific antibody: antibody directed against phosphorylated peptides. The first category is generic, consisting of phosphotyrosine, phosphoserine and phosphothreonine antibodies, which will bind to any phosphorylated tyrosine, serine and threonine residue, regardless of the neighboring amino acid. The second category includes antibodies against specific epitopes of phosphoamino acids.], the use of milk is not recommended, because of the high background noise.
+
+### Procedures  
+
+-  For phosphorylated proteins: make a solution of TBST + 5% BSA (w/v).  
+-  For non-phosphorylated proteins: make a solution of TBST + 5% powdered Milk (m/v).  
+-  In both cases, block the membrane for 1 hour at moderate stirring and room temperature.
+
+## Step 6 - Primary antibody incubation 
+
+After blocking, the membrane should be stained with ponceau (dye that shows if there was transference of the proteins from the gel to the membrane), and this solution should be reused.  
+To visualize the protein of interest, a specific antibody is used to react with an epitope of the protein, forming an antigen-antibody complex.
+
+### Procedures  
+
+-  Make a solution of TBSTA + primary antibody. The dilution of the antibody must follow the datasheet (e.g. 1: 1000). The diluted antibody can be reused several times - store in the freezer after use.  
+-  Incubate the membrane in this solution and store in the refrigerator under moderate agitation overnight.  
+-  After incubation store antibody and perform three washes (with constant agitation): TBST for 15 min and 2 of TBS for 15 min each (buffers should be discarded).  
+
+## Step 7 - Secondary antibody incubation  
+
+In this step, the membrane is incubated with a secondary antibody. This antibody has some specific biochemical modification that will allow the visualization of its protein of interest. At LaBIO, the secondary antibodies used are conjugated with an enzyme that will be important at the time of film development.
+
+### Procedures
+
+-  Remove the membrane from the TBS solution and place it in the solution made with secondary antibody (TBSTA + secondary antibody) under moderate stirring for 1 hour. The dilution of the antibody should follow the datasheet.  
+-  Remove the membrane from the solution with the secondary antibody and repeat the three washes: TBST for 15 min and 2 of TBS for 15 min each (the buffers must be discarded).  
+
+## Step 8 - Membrane read
+
+At the time of the membrane development, a substrate of the enzyme mentioned above is added. In the places where this enzyme is present the reaction and the formation of the product will occur. A film is used and marking will appear in the regions where this reaction occurred, allowing the localization of the protein of interest.
+
+### Procedures
+
+-  On the bench, place the membranes on top of a substrate (e.g. parafilm).  
+-  Make an ECL or luminol solution, in which you mix two fluorescent reagents: ECL WB Reagent A and ECL WB Reagent A in a 1:1 ratio (should be kept in the refrigerator after use).  
+-  Place the solution on the membranes (make sure that the entire membrane is soaked by the solution). Wait for 1 min.  
+-  Place the membrane on the plastic inside the cassette.  
+-  Take the cassette to darkroom and develop the film.  
+-  In the darkroom set up the developing bench: place a basin with developer, water, fixer, and water (exactly in that order).  
+-  After leaving the membrane(s) being exposed (variable time), remove the film and leave it 60 seconds in each tray, in the order described above.  
+-  Let the film dry. 
 
