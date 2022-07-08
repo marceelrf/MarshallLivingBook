@@ -1,7 +1,7 @@
 ---
 title: "The living book of Marshall"
 author: "Marcel Ferreira - Marshall"
-date: "2022-06-28"
+date: "2022-07-08"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -436,4 +436,16 @@ Table: (\#tab:nice-tab)Here is a nice table!
 
 
 <!--chapter:end:references.Rmd-->
+
+# (PART\*) Scientific basis {-}
+
+# The light in our labs
+
+As human beings the light plays a fundamental role in the way as we understand this the universe around us. 
+
+## What
+
+
+
+<!--chapter:end:ScientificBases_light.Rmd-->
 
